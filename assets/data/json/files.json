@@ -6,10 +6,10 @@
   "tokens": "jigsaw indoor floor plan reconstruction via mobile crowdsensing"
 },
 {
-  "title": "Aside Email Sample",
-  "url": "../layout/aside-email.html",
-  "description": "layout/aside-email.html",
-  "tokens": "aside email"
+  "title": "Conferences",
+  "url": "../acmPrototype/conferenceListing.html",
+  "description": "conference listing of ACM",
+  "tokens": "conference "
 },
 {
   "title": "Aside Form Samples",

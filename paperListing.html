@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="InterfaceDesign Class ACM Prototype">
+    <meta name="keywords" content="dashboard, index, main">
+
+    <title>Search | ACM Digital Library Prototype</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i|Dosis:300,500" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+		<style>
+		.col-md-3.py-20.gap-items-1 {
+			float: left;
+		}
+		</style>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+
+    <!--  Open Graph Tags -->
+    <meta property="og:title" content="ACM Prototype">
+    <meta property="og:description" content="ACM Prototype is a responsive, professional, and multipurpose admin template powered with Bootstrap 4.">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+
+  <body class="">
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-boxed sidebar-expand-lg sidebar-light">
+      <header class="sidebar-header">
+        <a class="logo-icon" href="index.html"><img src="assets/img/acmlogo_icon2.png" alt="logo icon"></a>
+        <span class="logo">
+          <a href="index.html"><img src="assets/img/acmLogo_white_header.png" alt="logo"></a>
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <ul class="menu">
+
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="index.html">
+              <span class="icon fa fa-home"></span>
+              <span class="title">Home</span>
+            </a>
+          </li>
+
+
+
+          <li class="menu-category">Main</li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-file-pdf-o"></span>
+              <span class="title">Publications</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Journals</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Thesis</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Proceedings</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Magazines</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">ACM Books</span>
+                </a>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-microphone"></span>
+              <span class="title">Conferences</span>
+
+            </a>
+
+
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-book"></span>
+              <span class="title">e-books</span>
+
+            </a>
+
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-download"></span>
+              <span class="title">Top Downloads</span>
+            </a>
+
+
+          </li>
+
+
+          <li class="menu-category">My COllection</li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-bookmark"></span>
+              <span class="title">Bookmarks</span>
+            </a>
+
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-time"></span>
+              <span class="title">History</span>
+            </a>
+
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-check-box"></span>
+              <span class="title">My Submissions</span>
+            </a>
+
+          </li>
+
+
+          <li class="menu-divider"></li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-question-circle"></span>
+              <span class="title">Help</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">FAQ</span>
+                </a>
+              </li>
+
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">About ACM</span>
+                </a>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+
+        <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+          <i class="material-icons fullscreen-default">fullscreen</i>
+          <i class="material-icons fullscreen-active">fullscreen_exit</i>
+        </a>
+
+        <div class="topbar-divider d-none d-md-block"></div>
+
+        <div class="lookup d-none d-md-block topbar-search" id="theadmin-search">
+          <input class="form-control w-300px" type="text">
+          <div class="lookup-placeholder">
+            <i class="ti-search"></i>
+            <span data-provide="typing" data-type="&lt;strong&gt;Search for any &lt;/strong&gt; paper title|&lt;strong&gt;Search for any &lt;/strong&gt; Category | &lt;strong&gt;Search for any &lt;/strong&gt; Conferences | &lt;strong&gt;Search for any &lt;/strong&gt; e-books | &lt;strong&gt; Just start typing any keyword... &lt;/strong&gt; " data-loop="true" data-type-speed="90" data-back-speed="50" data-show-cursor="true"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <a class="topbar-btn" href="#qv-global" data-toggle="quickview"><i class="ti-align-right"></i></a>
+
+        <div class="topbar-divider"></div>
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="assets/img/avatar/1.jpg" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="#">
+                <div class="flexbox">
+                  <i class="ti-email"></i>
+                  <span class="flex-grow">Inbox</span>
+                  <span class="badge badge-pill badge-info">5</span>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><i class="ti-lock"></i> Lock</a>
+              <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+
+
+
+          <!-- Messages -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-email"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-divided media-list-hover media-list-xs scrollable" style="height: 290px">
+                <a class="media media-new1" href="#">
+                  <span class="avatar status-success bg-info">NWL</span>
+
+                  <div class="media-body">
+                    <p><strong>ACM Newsletter</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                    <p class="text-truncate">Authoritatively exploit resource maximizing technologies before technically.</p>
+                  </div>
+                </a>
+
+                <a class="media media-new1" href="#">
+                  <span class="avatar status-success bg-primary">CNF</span>
+
+                  <div class="media-body">
+                    <p><strong>2017 Conference dates available</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                    <p class="text-truncate">Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar status-success bg-purple">NV</span>
+
+                  <div class="media-body">
+                    <p><strong>New Volume released</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                    <p class="text-truncate">Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar status-success bg-info">NWL</span>
+
+                  <div class="media-body">
+                    <p><strong>ACM Newsletter</strong> <time class="float-right" datetime="2017-07-14 20:00">1 week ago</time></p>
+                    <p class="text-truncate">Interactively innovate transparent relationships with holistic infrastructures.</p>
+                  </div>
+                </a>
+
+
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all messages</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Messages -->
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+    <!-- Main container -->
+    <main>
+
+
+      <div class="main-content">
+        <div class="card card-shadowed">
+           <div class="card">
+          <h4 class="card-title"><strong>Journal :</strong> ACM Transaction on Computer-Human Interaction (TOCHI)</h4>
+
+          <div class="card-body">
+            <ul class="nav nav-tabs nav-tabs-light-mode">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home-light">Subject Area</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#profile-light">Authors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages-light">Publication History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings-light">Affliations</a>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade active show" id="home-light">
+                    <div>
+                    <p>
+                      <a href="paperListingWithFilters.html"> <font size="6"> Human Computer Interaction </font></a>
+                      <a href="paperListingWithFilters.html"> <font size="2"> Human Centered Computing </font></a>
+                      <a href="paperListingWithFilters.html"> <small>  HCI Theory, Concepts and Models Human Centered Computing </small></a>
+                      <a href="paperListingWithFilters.html"> <font size="3">Emphirical Studies in HCI </font></a>
+                      <a href="paperListingWithFilters.html">  <font size="5"> Touch Screens </font></a>
+                      <a href="paperListingWithFilters.html">  <font size="3"> Interaction Paradigms Screens </font></a>
+                      <a href="paperListingWithFilters.html"> <small> User centered Design </small></a>
+                      <a href="paperListingWithFilters.html"> <font size="3">Cogntive Science </font></a>
+                    </p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="profile-light">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Paper Counts</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Steve</td>
+                      <td>Benford</td>
+                      <td>13</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Kasper</td>
+                      <td>Hornbeak</td>
+                      <td> 5</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Braud</td>
+                      <td>Bederson</td>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Chris</td>
+                      <td>Burnette</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Alice</td>
+                      <td>Jeff</td>
+                      <td>156</td>
+                    </tr>
+                  </tbody>
+                </table>
+                  </div>
+                  <div class="tab-pane fade" id="messages-light">
+                  <h4>  2016 </h4>
+                      <h5>Volume 23 Issue 6, December 2016 </h5>
+                      <h5>Volume 23 Issue 5, November 2016 </h5>
+                    <h5>  Volume 23 Issue 4, September 2016 </h5>
+                    <h5>  Volume 23 Issue 3, July 2016 </h5>
+                      <h5>Volume 23 Issue 2, May 2016 </h5>
+                      <h5>Volume 23 Issue 1, February 2016 </h5>
+                  </div>
+                  <div class="tab-pane fade" id="settings-light">
+                    <table class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Affliations</th>
+                      <th>Paper Counts</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>University of Florida</td>
+                      <td>133</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Carnegie Melon University</td>
+                      <td>785</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>lanchester University</td>
+                      <td> 513</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Brunel University London</td>
+                      <td>52</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Virginia Tech</td>
+                      <td>16</td>
+                    </tr>
+                  </tbody>
+                </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="card">
+          <h4 class="card-title">
+            Top Downloads
+            <small class="sidetitle">About 5,075 results</small>
+          </h4>
+
+          <div class="card-body">
+            <div class="row">
+
+
+
+              <div class="col-lg-12">
+
+               	<!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <a href="#"> <span class="fs-18 pr-16 fw-300 text-info">This is a Research paper title we are using</span></a>
+                       <span class="badge badge-success text-uppercase no-radius ls-1 opacity-100">Recommended</span>
+                    </p>
+                     <div>
+                        <a class="text-success" href="#">Author 1, Author 2</a>
+                       <span class="divider-dot mx-2"></span>
+                       <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                        <span class="divider-dot mx-2"></span>
+                        <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                         <span class="divider-dot mx-2"></span>
+                        <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                      </div>
+
+                 <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-download"></i> Download</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+                <!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <span class="fs-18 pr-16 fw-300 text-info">This is a Research paper title we are using</span>
+                      <span class="badge badge-success text-uppercase no-radius ls-1 opacity-100">Recommended</span>
+                    </p>
+                    <div>
+                      <a class="text-success" href="#">Author 1, Author 2</a>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                    </div>
+
+                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+                <!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <span class="fs-18 pr-16 fw-300 text-info">This is a Research paper title we are using</span>
+                    </p>
+                    <div>
+                      <a class="text-success" href="#">Author 1, Author 2</a>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                    </div>
+
+                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+
+                <!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <span class="fs-18 pr-16 fw-300 text-info">This is a Research paper title we are using</span>
+                    </p>
+                    <div>
+                      <a class="text-success" href="#">Author 1, Author 2</a>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                    </div>
+
+                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+
+
+                <!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <span class="fs-18 pr-16 fw-300 text-info">This is a Research paper title we are using</span>
+                    </p>
+                    <div>
+                      <a class="text-success" href="#">Author 1, Author 2</a>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                    </div>
+
+                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+
+
+                <!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <span class="fs-18 pr-16 fw-300 text-info">This is a Research paper title we are using</span>
+                    </p>
+                    <div>
+                      <a class="text-success" href="#">Author 1, Author 2</a>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                    </div>
+
+                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+
+
+                <div>
+                  <h6>Related searches</h6>
+                  <div class="row">
+                    <div class="col-6 col-lg-4 mb-2">
+                      <a class="text-info" href="#">Enhanced form <strong>of UI/UX Components</strong></a>
+                    </div>
+
+                    <div class="col-6 col-lg-4 mb-2">
+                      <a class="text-info" href="#">Cloud Computing <strong>peaks and lows</strong></a>
+                    </div>
+
+                    <div class="col-6 col-lg-4 mb-2">
+                      <a class="text-info" href="#">Web based Application <strong>UX design</strong></a>
+                    </div>
+
+                    <div class="col-6 col-lg-4 mb-2">
+                      <a class="text-info" href="#"><strong>Admin</strong> the UI Configuration</a>
+                    </div>
+
+                    <div class="col-6 col-lg-4 mb-2">
+                      <a class="text-info" href="#">Premium <strong>UI/UX Methods</strong></a>
+                    </div>
+
+                    <div class="col-6 col-lg-4 mb-2">
+                      <a class="text-info" href="#">UI kit collection</a>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+
+                <nav>
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#">
+                        <span class="ti-arrow-left"></span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">
+                        <span class="ti-arrow-right"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+
+              </div>
+
+
+             </div>
+
+
+          </div>
+        </div>
+
+
+        <!--Content Quick View -->
+        <div id="qv-basic" class="quickview backdrop-dark quickview-lg">
+          <header class="quickview-header">
+            <p class="quickview-title">Quickview title</p>
+            <span class="close"><a href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a> &nbsp;&nbsp; <i class="ti-close"></i></span>
+          </header>
+
+          <div class="quickview-body">
+            <div class="quickview-block">
+              ...
+            </div>
+          </div>
+
+          <footer class="quickview-footer">
+            <button class="btn btn-primary">View Large</button>
+            <button class="btn btn-danger" data-dismiss="quickview">Close</button>
+
+          </footer>
+        </div>
+
+        <!--Content Quick View end-->
+
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="#">ACM, Inc</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Career Center</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessibility</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="assets/data/quickview-global-for-index.html">
+      <div class="spinner-linear">
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- END Global quickview -->
+
+
+
+    <!-- Scripts -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+
+  </body>
+</html>

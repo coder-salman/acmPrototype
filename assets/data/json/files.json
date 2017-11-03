@@ -7,15 +7,15 @@
 },
 {
   "title": "Conferences",
-  "url": "../acmPrototype/conferenceListing.html",
+  "url": "acmPrototype/conferenceListing.html",
   "description": "conference listing of ACM",
   "tokens": "conference "
 },
 {
-  "title": "Aside Form Samples",
-  "url": "../layout/aside-form.html",
-  "description": "layout/aside-form.html",
-  "tokens": "aside form"
+  "title": "Journals",
+  "url": "acmPrototype/journals-listing.html",
+  "description": "journals listing of ACM",
+  "tokens": "journals list"
 },
 {
   "title": "Aside Messages Sample",

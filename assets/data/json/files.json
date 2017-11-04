@@ -23,7 +23,30 @@
   "description": "Why Google stores billions of lines of code in a single repository",
   "tokens": "google billions"
 },
-
+  {
+    "title": "Author",
+    "url": "acmPrototype/search.html",
+    "description": "David Gregg",
+    "tokens": "david gregg"
+  },
+  {
+    "title": "Thesis",
+    "url": "acmPrototype/search.html",
+    "description": "University of North Florida",
+    "tokens": "north florida"
+  },
+  {
+    "title": "Subject Area",
+    "url": "acmPrototype/search.html",
+    "description": "Human Computer Interaction",
+    "tokens": "Human Computer Interaction"
+  },
+  {
+    "title": "Subject Area",
+    "url": "acmPrototype/search.html",
+    "description": "Randomness, geometry and discrete structures",
+    "tokens": "randomness geometry discrete structures"
+  },
 {
     "title": "Journal",
     "url": "acmPrototype/journals-listing.html",

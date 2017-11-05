@@ -177,31 +177,12 @@
           <li class="menu-divider"></li>
 
           <li class="menu-item">
-            <a class="menu-link" href="#">
+            <a class="menu-link" href="readme.html" target="_blank">
               <span class="icon fa fa-question-circle"></span>
               <span class="title">Help</span>
-              <span class="arrow"></span>
+               <span class="badge badge-primary badge-danger">important !</span>
             </a>
 
-            <ul class="menu-submenu">
-
-              <li class="menu-item">
-                <a class="menu-link" href="#">
-                  <span class="dot"></span>
-                  <span class="title">FAQ</span>
-                </a>
-              </li>
-
-
-              <li class="menu-item">
-                <a class="menu-link" href="#">
-                  <span class="dot"></span>
-                  <span class="title">About ACM</span>
-                </a>
-              </li>
-
-
-            </ul>
           </li>
 
 
@@ -781,6 +762,14 @@
     <script src="assets/js/core.min.js"></script>
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-
+    <script type="application/javascript">
+        $( document ).ready(function(){
+            app.toast('Please View the read me document', {
+                actionTitle: 'Read me',
+                actionUrl: 'readme.html',
+                duration: 9999000
+            });
+        });
+    </script>
   </body>
 </html>

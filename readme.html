@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="InterfaceDesign Class ACM Prototype">
+  <meta name="keywords" content="dashboard, index, main">
+
+  <title>ACM Digital Library Prototype | Interface Design Class | UNF</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i|Dosis:300,500" rel="stylesheet">
+
+  <!-- Styles -->
+  <link href="assets/css/core.min.css" rel="stylesheet">
+  <link href="assets/css/app.min.css" rel="stylesheet">
+  <link href="assets/css/style.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.png">
+
+  <!--  Open Graph Tags -->
+  <meta property="og:title" content="ACM Prototype">
+  <meta property="og:description" content="ACM Prototype for Interface Design Class powered with Bootstrap 4.">
+
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-boxed sidebar-expand-lg sidebar-light">
+        <header class="sidebar-header">
+            <a class="logo-icon" href="index.html"><img src="assets/img/acmlogo_icon2.png" alt="logo icon"></a>
+            <span class="logo">
+          <a href="index.html"><img src="assets/img/acmLogo_white_header.png" alt="logo"></a>
+        </span>
+            <span class="sidebar-toggle-fold"></span>
+        </header>
+
+        <nav class="sidebar-navigation">
+            <ul class="menu">
+
+
+
+                <li class="menu-item">
+                    <a class="menu-link" href="index.html">
+                        <span class="icon fa fa-home"></span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+
+
+
+                <li class="menu-category">Main</li>
+
+
+                <li class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="icon fa fa-file-pdf-o"></span>
+                        <span class="title">Publications</span>
+                        <span class="arrow"></span>
+                    </a>
+
+                    <ul class="menu-submenu">
+                        <li class="menu-item">
+                            <a class="menu-link" href="journals-listing.html">
+                                <span class="dot"></span>
+                                <span class="title">Journals</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="menu-link" href="thesisListing.html">
+                                <span class="dot"></span>
+                                <span class="title">Thesis</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <span class="dot"></span>
+                                <span class="title">Proceedings</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <span class="dot"></span>
+                                <span class="title">Magazines</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <span class="dot"></span>
+                                <span class="title">ACM Books</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </li>
+
+
+                <li class="menu-item">
+                    <a class="menu-link" href="conferenceListing.html">
+                        <span class="icon fa fa-microphone"></span>
+                        <span class="title">Conferences</span>
+
+                    </a>
+
+
+                </li>
+
+
+                <li class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="icon fa fa-book"></span>
+                        <span class="title">e-books</span>
+
+                    </a>
+
+                </li>
+
+
+                <li class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="icon ti-download"></span>
+                        <span class="title">Top Downloads</span>
+                    </a>
+
+
+                </li>
+
+
+                <li class="menu-category">My Collection</li>
+
+
+                <li class="menu-item">
+                    <a class="menu-link" href="mycollection.html">
+                        <span class="icon ti-bookmark"></span>
+                        <span class="title">Bookmarks</span>
+                    </a>
+
+                </li>
+
+                <li class="menu-item">
+                    <a class="menu-link" href="mycollection.html">
+                        <span class="icon ti-check-box"></span>
+                        <span class="title">My Submissions</span>
+                    </a>
+
+                </li>
+
+                <li class="menu-item">
+                    <a class="menu-link" href="profile.html">
+                        <span class="icon ti-user"></span>
+                        <span class="title">Profile</span>
+                    </a>
+
+                </li>
+
+
+                <li class="menu-divider"></li>
+
+                <li class="menu-item">
+                    <a class="menu-link" href="readme.html" target="_blank">
+                        <span class="icon fa fa-question-circle"></span>
+                        <span class="title">Help</span>
+                        <span class="badge badge-primary badge-danger">important !</span>
+                    </a>
+
+                </li>
+
+
+            </ul>
+        </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+        <div class="topbar-left">
+            <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+
+            <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+                <i class="material-icons fullscreen-default">fullscreen</i>
+                <i class="material-icons fullscreen-active">fullscreen_exit</i>
+            </a>
+
+            <div class="topbar-divider d-none d-md-block"></div>
+
+            <div class="lookup d-none d-md-block topbar-search" id="theadmin-search">
+                <input class="form-control w-500px" type="text">
+                <div class="lookup-placeholder">
+                    <i class="ti-search"></i>
+                    <span data-provide="typing" data-type="&lt;strong&gt;Search for any &lt;/strong&gt; paper title|&lt;strong&gt;Search for any &lt;/strong&gt; Category | &lt;strong&gt;Search for any &lt;/strong&gt; Conferences | &lt;strong&gt;Search for any &lt;/strong&gt; e-books | &lt;strong&gt; Just start typing any keyword... &lt;/strong&gt; " data-loop="true" data-type-speed="90" data-back-speed="50" data-show-cursor="true"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="topbar-right">
+            <a class="topbar-btn" href="#qv-global" data-toggle="quickview"><i class="ti-align-right"></i></a>
+
+            <div class="topbar-divider"></div>
+
+            <ul class="topbar-btns">
+                <li class="dropdown">
+                    <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="assets/img/avatar/1.jpg" alt="..."></span>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#">
+                            <div class="flexbox">
+                                <i class="ti-email"></i>
+                                <span class="flex-grow">Inbox</span>
+                                <span class="badge badge-pill badge-info">5</span>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="ti-lock"></i> Lock</a>
+                        <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+                    </div>
+                </li>
+
+
+
+                <!-- Messages -->
+                <li class="dropdown d-none d-md-block">
+                    <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-email"></i></span>
+                    <div class="dropdown-menu dropdown-menu-right">
+
+                        <div class="media-list media-list-divided media-list-hover media-list-xs scrollable" style="height: 290px">
+                            <a class="media media-new1" href="#">
+                                <span class="avatar status-success bg-info">NWL</span>
+
+                                <div class="media-body">
+                                    <p><strong>ACM Newsletter</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                                    <p class="text-truncate">Authoritatively exploit resource maximizing technologies before technically.</p>
+                                </div>
+                            </a>
+
+                            <a class="media media-new1" href="#">
+                                <span class="avatar status-success bg-primary">CNF</span>
+
+                                <div class="media-body">
+                                    <p><strong>2017 Conference dates available</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                                    <p class="text-truncate">Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                                </div>
+                            </a>
+
+                            <a class="media" href="#">
+                                <span class="avatar status-success bg-purple">NV</span>
+
+                                <div class="media-body">
+                                    <p><strong>New Volume released</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                                    <p class="text-truncate">Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                                </div>
+                            </a>
+
+                            <a class="media" href="#">
+                                <span class="avatar status-success bg-info">NWL</span>
+
+                                <div class="media-body">
+                                    <p><strong>ACM Newsletter</strong> <time class="float-right" datetime="2017-07-14 20:00">1 week ago</time></p>
+                                    <p class="text-truncate">Interactively innovate transparent relationships with holistic infrastructures.</p>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+                        <div class="dropdown-footer">
+                            <div class="left">
+                                <a href="#">Read all messages</a>
+                            </div>
+
+                            <div class="right">
+                                <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                                <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END Messages -->
+
+            </ul>
+
+        </div>
+    </header>
+    <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+
+      <header class="header mb-0">
+        <div class="header-info">
+          <h1 class="header-title">
+            <strong>Readme</strong>
+            <small>How to use the product</small>
+          </h1>
+        </div>
+
+        <div class="header-action">
+          <nav class="nav">
+            <a class="nav-link active" href="#">General</a>
+            <a class="nav-link" href="readme-features.html">Added Features</a>
+            <a class="nav-link" href="readme-technical.html">Technical</a>
+            <a class="nav-link" href="readme-license.html">License</a>
+          </nav>
+        </div>
+      </header><!--/.header -->
+
+
+
+      <div class="main-content">
+        <div class="card p-3 p-md-5 article">
+
+          <p class="mb-1 fs-12">List of Pages:</p>
+          <div class="bg-pale-secondary b-1 border-light p-20">
+            <ul class="list-iconic pl-0 m-0 fs-14">
+              <li class="text-truncate">
+                <a class="text-default hover-primary scroll-to" href="#faq-1">1) Login and Signup Pages</a>
+              </li>
+
+              <li class="text-truncate">
+                <a class="text-default hover-primary scroll-to" href="#faq-2">2) Homepage</a>
+              </li>
+
+              <li class="text-truncate">
+                <a class="text-default hover-primary scroll-to" href="#faq-3">3) Search Bar/Page</a>
+              </li>
+                <li class="text-truncate">
+                <a class="text-default hover-primary scroll-to" href="#faq-4">4) Journals Listing</a>
+            </li>
+                <li class="text-truncate">
+                <a class="text-default hover-primary scroll-to" href="#faq-5">5) Conference Listing</a>
+            </li>
+                <li class="text-truncate">
+                    <a class="text-default hover-primary scroll-to" href="#faq-6">6) My Collection</a>
+                </li>
+                <li class="text-truncate">
+                    <a class="text-default hover-primary scroll-to" href="#faq-7">7) Profile</a>
+                </li>
+            </ul>
+          </div>
+
+
+          <br><br><br>
+
+          <h4 id="faq-1">1) Login and Signup <a class="fs-12" target="_blank" href="login.html"><u>View</u></a></h4>
+          <p>Sign in and Signup pages are an important page as this allows the user to login to the website system and start collecting the information required.</p>
+          <p>You can view the pages for both <a href="login.html" target="_blank">Login </a> and <a href="signup.html" target="_blank">Signup</a></p>
+
+          <hr class="w-900px border-secondary">
+
+          <h4 id="faq-2">2) Homepage <a class="fs-12" target="_blank" href="index.html"><u>view</u></a></h4>
+          <p>During the contextual analysis most of the users were unclear about the various literature types available in the homepage and hence were unable to pick the appropriate choices even when they were available. Having these in mind the homepage was designed with the literature options embedded in the menus that would present the choices to users in an effective way.</p>
+                    <h5>Features</h5>
+                    <p>Here is a list of features available on Homepage.</p>
+
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <ul class="list-iconic pl-0 m-0 fs-14">
+                          <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>General Introduction</span>
+                          </li>
+
+                          <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Direct links to Journals, Thesis, Magazines and ACM Books</span>
+                          </li>
+
+                          <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Top 10 Subject Areas with Filters (today,this week, this month, this year)</span>
+                                <ul class="fs-12">
+                                  <li class="text-truncate mb">
+                                    <i class="ti-control-record fs-11 mr-2 text-primary"></i>
+                                    <span>Total Papers in the subject area are listed</span>
+                                  </li>
+                                  <li class="text-truncate mb">
+                                    <i class="ti-control-record fs-11 mr-2 text-primary"></i>
+                                    <span>Total views are listed </span>
+                                  </li>
+
+                                </ul>
+
+                          </li>
+
+
+                        </ul>
+                      </div>
+
+
+                      <div class="col-lg-6">
+                        <ul class="list-iconic pl-0 m-0 fs-14">
+                          <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Top 5 Research Papers with Filters (today,this week, this month, this year)</span>
+                                <ul class="fs-12">
+                                  <li class="text-truncate mb">
+                                    <i class="ti-control-record fs-11 mr-2 text-primary"></i>
+                                    <span>Quick View to view a paper is available</span>
+                                  </li>
+                                  <li class="text-truncate mb">
+                                    <i class="ti-control-record fs-11 mr-2 text-primary"></i>
+                                    <span>Quick bookmark to refer later is available </span>
+                                  </li>
+
+                                </ul>
+
+                          </li>
+
+                          <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Fully Responsive Pages</span>
+                          </li>
+
+
+                        </ul>
+                      </div>
+                    </div>
+
+
+
+            <hr class="w-900px border-secondary">
+
+          <h4 id="faq-3"> 3) Search Bar/Page <a class="fs-12" target="_blank" href="search.html"><u>view</u></a></h4>
+          <p>During our contextual analysis, we found that most users to navigate throughout the website, used search bar. It is one of the most prominent feature for the ACM library and must be made easy for the user to search while providing best results</p>
+            <h5>Features</h5>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6>Search Bar</h6>
+                    <ul class="list-iconic pl-0 m-0 fs-14">
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Ajax Search (try typing Jigsaw, Google, journal,...)</span>
+                        </li>
+
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Direct links to Journals, Thesis, Magazines and ACM Books</span>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h6>Search Page</h6>
+                    <ul class="list-iconic pl-0 m-0 fs-14">
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Enter search term with Advanced Filters</span>
+                        </li>
+
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Displays results with recommended feature</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Displays results with recommended papers</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Quick view, Bookmark, Download and remove from search results available</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Quick view, Bookmark, Download and remove from search results available</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Realted Searches with searched keyword is provided</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Top 10 results, matching the keyword density are provided on the first page.</span>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                </div>
+
+            <hr class="w-900px border-secondary">
+
+            <h4 id="faq-4"> 4) Journals Listing <a class="fs-12" target="_blank" href="journals-listing.html"><u>view</u></a></h4>
+            <p>The list of various Journals, conferences, proceedings was vast and hence an effective way to list and search the list of journals.</p>
+            <h5>Features</h5>
+
+            <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-iconic pl-0 m-0 fs-14">
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Journal Search Available (no functionality added for this prototype)</span>
+                        </li>
+
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Total downloads, citations and years are available</span>
+                        </li>
+                      <li class="text-truncate mb-2">
+                          <i class="ti-check fs-11 mr-2 text-primary"></i>
+                          <span>Popular Subject area is given to reduce user's work with one click</span>
+                      </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="w-900px border-secondary">
+
+            <h4 id="faq-5"> 5) Conference Listing <a class="fs-12" target="_blank" href="conferenceListing.html"><u>view</u></a></h4>
+            <p>The list of various Journals, conferences, proceedings was vast and hence an effective way to list and search the list of journals.</p>
+            <h5>Features</h5>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-iconic pl-0 m-0 fs-14">
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Journal Search Available (no functionality added for this prototype)</span>
+                        </li>
+
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Total downloads, citations and years are available</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Popular Subject area is given to reduce user's work with one click</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Conference Search Available (no functionality added for this prototype)</span>
+                        </li>
+
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Individual Conference Listing Provided  <a class="fs-12" target="_blank" href="conferencePaperListing.html"><u>view</u></a></span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Individual Conference Subject Area and Advanced Filters  <a class="fs-12" target="_blank" href="conferencePaperListingWithFilters.html"><u>view</u></a></span>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="w-900px border-secondary">
+
+            <h4 id="faq-6"> 6) MyCollection <a class="fs-12" target="_blank" href="mycollection.html"><u>view</u></a></h4>
+            <p>A new feature that we wanted to add to our website prototype. This will help user to navigate to their respective bookmarked papers and submissions with ease</p>
+            <h5>Features</h5>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-iconic pl-0 m-0 fs-14">
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Can view demographics and content with time(All time, Yearly, weekly, Daily) filters.</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Demographic overview is given for bookmarks, total searches and total submission </span>
+                        </li>
+
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>Bookmarks with filters ( with quick view and remove bookmark features) </span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>List of submissions </span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>List of search queries (with re-requery and remove search options) </span>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <hr class="w-900px border-secondary">
+
+            <h4 id="faq-7"> 7) Profile <a class="fs-12" target="_blank" href="profile.html"><u>view</u></a></h4>
+            <p>A new feature that we wanted to add to our website prototype. One stop solution for users to change their account and notification settings.</p>
+            <h5>Features</h5>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-iconic pl-0 m-0 fs-14">
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>User can change account information</span>
+                        </li>
+                        <li class="text-truncate mb-2">
+                            <i class="ti-check fs-11 mr-2 text-primary"></i>
+                            <span>User can update Notification Settings</span>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+      </div><!--/.main-content -->
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="#">ACM, Inc</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Career Center</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessibility</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="assets/data/quickview-global-for-index.html">
+        <div class="spinner-linear">
+            <div class="line"></div>
+        </div>
+    </div>
+    <!-- END Global quickview -->
+
+
+    <!-- Scripts -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+
+  </body>
+</html>

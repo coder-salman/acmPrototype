@@ -20,7 +20,7 @@
     // Action HTML
     var action = '';
     if (setting.actionTitle != '') {
-      action = '<a class="text-'+ setting.actionColor +'" href="'+ setting.actionUrl +'">'+ setting.actionTitle +'</a>'
+      action = '<a class="text-'+ setting.actionColor +'" target="_blank" href="'+ setting.actionUrl +'" >'+ setting.actionTitle +'</a>'
     }
 
     // Close previous toast if it is open

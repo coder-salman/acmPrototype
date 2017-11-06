@@ -69,7 +69,7 @@
                 <li class="menu-item">
                     <a class="menu-link" href="#">
                         <span class="icon fa fa-file-pdf-o"></span>
-                        <span class="title">Publications</span>
+                        <span class="title publicatn">Publications</span>
                         <span class="arrow"></span>
                     </a>
 
@@ -164,7 +164,7 @@
 
                 </li>
 
-                <li class="menu-item">
+                <li class="menu-item profilen">
                     <a class="menu-link" href="profile.html">
                         <span class="icon ti-user"></span>
                         <span class="title">Profile</span>
@@ -499,7 +499,7 @@
             });
 
             shepherd.addStep('mail', {
-                title: '4,5,6,7,10',
+                title: '4,5,6,7',
                 text: ['Quick mails and Profile Settings'],
                 attachTo: '.myemailcls top',
                 classes: 'shepherd shepherd-open shepherd-theme-arrows-plain-buttons shepherd-transparent-text',
@@ -520,15 +520,28 @@
             shepherd.addStep('header', {
                 title: 'Paper quickview and Easy Bookmark',
                 text: ['Most interesting feature'],
-                attachTo: '.fa-file-pdf-o right',
+                attachTo: '.publicatn right',
                 classes: 'shepherd shepherd-open shepherd-theme-arrows-plain-buttons shepherd-transparent-text',
                 buttons: [
                     {
-                        text: 'Prev',
+                        text: 'Exit',
                         classes: 'btn btn-secondary',
-                        action: shepherd.prev
+                        action: shepherd.cancel
                     }, {
-                        text: 'End',
+                        text: 'Next',
+                        action: shepherd.next,
+                        classes: 'btn btn-primary'
+                    }
+                ]
+            });
+            shepherd.addStep('profiln', {
+                title: 'Profile',
+                text: ['Update your notification settings and profile'],
+                attachTo: '.profilen right',
+                classes: 'shepherd shepherd-open shepherd-theme-arrows-plain-buttons shepherd-transparent-text',
+                buttons: [
+                     {
+                        text: 'End Tour',
                         action: shepherd.next,
                         classes: 'btn btn-primary'
                     }

@@ -499,7 +499,7 @@
             });
 
             shepherd.addStep('mail', {
-                title: '4,5,6,7',
+                title: '4,5,6,7,10',
                 text: ['Quick mails and Profile Settings'],
                 attachTo: '.myemailcls top',
                 classes: 'shepherd shepherd-open shepherd-theme-arrows-plain-buttons shepherd-transparent-text',
@@ -518,17 +518,17 @@
 
 
             shepherd.addStep('header', {
-                title: 'Page header',
-                text: ['Most common action of a dashboard should place here for better access.'],
-                attachTo: '.header bottom',
+                title: 'Paper quickview and Easy Bookmark',
+                text: ['Most interesting feature'],
+                attachTo: '.fa-file-pdf-o right',
                 classes: 'shepherd shepherd-open shepherd-theme-arrows-plain-buttons shepherd-transparent-text',
                 buttons: [
                     {
-                        text: 'Exit',
+                        text: 'Prev',
                         classes: 'btn btn-secondary',
-                        action: shepherd.cancel
+                        action: shepherd.prev
                     }, {
-                        text: 'Next',
+                        text: 'End',
                         action: shepherd.next,
                         classes: 'btn btn-primary'
                     }

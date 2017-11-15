@@ -6,7 +6,7 @@
     <meta name="description" content="InterfaceDesign Class ACM Prototype">
     <meta name="keywords" content="dashboard, index, main">
 
-    <title>Thesis Listing | ACM Digital Library Prototype</title>
+    <title>Search | ACM Digital Library Prototype</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i|Dosis:300,500" rel="stylesheet">
@@ -43,6 +43,7 @@
         <span class="dot3"></span>
       </div>
     </div>
+
 
 
     <!-- Sidebar -->
@@ -162,6 +163,16 @@
 
           </li>
 
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-time"></span>
+              <span class="title">History</span>
+            </a>
+
+          </li>
+
+
           <li class="menu-item">
             <a class="menu-link" href="mycollection.html">
               <span class="icon ti-check-box"></span>
@@ -170,24 +181,35 @@
 
           </li>
 
-          <li class="menu-item">
-            <a class="menu-link" href="profile.html">
-              <span class="icon ti-user"></span>
-              <span class="title">Profile</span>
-            </a>
-
-          </li>
-
 
           <li class="menu-divider"></li>
 
           <li class="menu-item">
-            <a class="menu-link" href="readme.html" target="_blank">
+            <a class="menu-link" href="#">
               <span class="icon fa fa-question-circle"></span>
               <span class="title">Help</span>
-              <span class="badge badge-primary badge-danger">important !</span>
+              <span class="arrow"></span>
             </a>
 
+            <ul class="menu-submenu">
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">FAQ</span>
+                </a>
+              </li>
+
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">About ACM</span>
+                </a>
+              </li>
+
+
+            </ul>
           </li>
 
 
@@ -211,7 +233,7 @@
         <div class="topbar-divider d-none d-md-block"></div>
 
         <div class="lookup d-none d-md-block topbar-search" id="theadmin-search">
-          <input class="form-control w-500px" type="text">
+          <input class="form-control w-300px" type="text">
           <div class="lookup-placeholder">
             <i class="ti-search"></i>
             <span data-provide="typing" data-type="&lt;strong&gt;Search for any &lt;/strong&gt; paper title|&lt;strong&gt;Search for any &lt;/strong&gt; Category | &lt;strong&gt;Search for any &lt;/strong&gt; Conferences | &lt;strong&gt;Search for any &lt;/strong&gt; e-books | &lt;strong&gt; Just start typing any keyword... &lt;/strong&gt; " data-loop="true" data-type-speed="90" data-back-speed="50" data-show-cursor="true"></span>
@@ -311,7 +333,6 @@
     </header>
     <!-- END Topbar -->
 
-
     <!-- Main container -->
     <main>
 
@@ -319,7 +340,7 @@
       <div class="main-content">
         <div class="card card-shadowed">
            <div class="card">
-             <p> <font size="4" class="card-title"><strong>Thesis Titles : </strong> </font>
+             <p> <font size="4" class="card-title"><strong>Thesis </strong> </font>
                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                List by :  <select data-provide="selectpicker" onchange="location = this.options[this.selectedIndex].value;">
                     <option data-icon="fa fa-language" value="thesisListing.html">Thesis Title</option>
@@ -437,7 +458,7 @@
 
                   <div class="media-body">
                     <p>
-                      <a href="#"> <span class="fs-18 pr-16 fw-300 text-info">University Name - Thesis Title </span></a>
+                      <a href="#"> <span class="fs-18 pr-16 fw-300 text-info">University of Florida - Unsupervised learning </span></a>
                        <span class="badge badge-success text-uppercase no-radius ls-1 opacity-100">Recommended</span>
                     </p>
                      <div>
@@ -481,7 +502,7 @@
 
                   <div class="media-body">
                     <p>
-                      <span class="fs-18 pr-16 fw-300 text-info">University Name - Thesis Title </span>
+                      <span class="fs-18 pr-16 fw-300 text-info">University of Florida - Use of mutation events and mutual information to predict protein-protein interactions </span>
                       <span class="badge badge-success text-uppercase no-radius ls-1 opacity-100">Recommended</span>
                     </p>
                     <div>
@@ -525,7 +546,7 @@
 
                   <div class="media-body">
                     <p>
-                      <span class="fs-18 pr-16 fw-300 text-info">University Name - Thesis Title </span>
+                      <span class="fs-18 pr-16 fw-300 text-info">University of Florida - User model-driven architecture for information retrieval in construction project management  </span>
                     </p>
                     <div>
                       <a class="text-success" href="#">Author 1, Author 2</a>
@@ -569,52 +590,7 @@
 
                   <div class="media-body">
                     <p>
-                      <span class="fs-18 pr-16 fw-300 text-info">University Name - Thesis Title </span>
-                    </p>
-                    <div>
-                      <a class="text-success" href="#">Author 1, Author 2</a>
-                      <span class="divider-dot mx-2"></span>
-                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
-                      <span class="divider-dot mx-2"></span>
-                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
-                      <span class="divider-dot mx-2"></span>
-                      <small><i class="ti-import"> </i>14,950 downloads</small>
-
-                    </div>
-
-                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
-
-                  </div>
-
-                  <div class="media-right gap-items">
-                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
-                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
-                    <div class="btn-group">
-                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-                <hr>
-                <!--Content 1st search card end -->
-
-
-
-                <!--Content 1st search card -->
-                <div class="media p-0">
-
-
-                  <div class="media-body">
-                    <p>
-                      <span class="fs-18 pr-16 fw-300 text-info">University Name - Thesis Title </span>
+                      <span class="fs-18 pr-16 fw-300 text-info">University of Florida - Using a multilevel reconstruction approach for machine translation from english to chinese via linguistic canonical form  </span>
                     </p>
                     <div>
                       <a class="text-success" href="#">Author 1, Author 2</a>
@@ -659,7 +635,52 @@
 
                   <div class="media-body">
                     <p>
-                      <span class="fs-18 pr-16 fw-300 text-info">University Name - Thesis Title </span>
+                      <span class="fs-18 pr-16 fw-300 text-info">University of Florida - Using decision trees and feature construction to describe changing consumer lifestyles and expectations </span>
+                    </p>
+                    <div>
+                      <a class="text-success" href="#">Author 1, Author 2</a>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-calendar"> </i>2004, Volume I</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-pencil-alt"> </i>2,500 citations</small>
+                      <span class="divider-dot mx-2"></span>
+                      <small><i class="ti-import"> </i>14,950 downloads</small>
+
+                    </div>
+
+                    <p class="mt-2">Conveniently optimize distributed infrastructures with client-centered scenarios. Credibly whiteboard integrated users and intuitive synergy. Proactively disseminate resource sucking resources.</p>
+
+                  </div>
+
+                  <div class="media-right gap-items">
+                    <a class="media-action lead" data-provide="tooltip" data-toggle="quickview" href="#qv-basic" title="Quick View"><i class="ti-eye"></i></a>
+                    <a class="media-action lead" href="#" data-provide="tooltip" title="Bookmark"><i class="ti-bookmark"></i></a>
+                    <div class="btn-group">
+                      <a class="media-action lead" href="#" data-toggle="dropdown"><i class="ti-more-alt rotate-90"></i></a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i> Messages</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-phone"></i> Call</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-remove"></i> Remove</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <hr>
+                <!--Content 1st search card end -->
+
+
+
+                <!--Content 1st search card -->
+                <div class="media p-0">
+
+
+                  <div class="media-body">
+                    <p>
+                      <span class="fs-18 pr-16 fw-300 text-info">University of Florida - Using domain-specific knowledge in support vector machines </span>
                     </p>
                     <div>
                       <a class="text-success" href="#">Author 1, Author 2</a>
@@ -699,32 +720,8 @@
 
 
                 <div>
-                  <h6>Related searches</h6>
-                  <div class="row">
-                    <div class="col-6 col-lg-4 mb-2">
-                      <a class="text-info" href="#">Enhanced form <strong>of UI/UX Components</strong></a>
-                    </div>
+                  
 
-                    <div class="col-6 col-lg-4 mb-2">
-                      <a class="text-info" href="#">Cloud Computing <strong>peaks and lows</strong></a>
-                    </div>
-
-                    <div class="col-6 col-lg-4 mb-2">
-                      <a class="text-info" href="#">Web based Application <strong>UX design</strong></a>
-                    </div>
-
-                    <div class="col-6 col-lg-4 mb-2">
-                      <a class="text-info" href="#"><strong>Admin</strong> the UI Configuration</a>
-                    </div>
-
-                    <div class="col-6 col-lg-4 mb-2">
-                      <a class="text-info" href="#">Premium <strong>UI/UX Methods</strong></a>
-                    </div>
-
-                    <div class="col-6 col-lg-4 mb-2">
-                      <a class="text-info" href="#">UI kit collection</a>
-                    </div>
-                  </div>
                 </div>
 
                 <hr>

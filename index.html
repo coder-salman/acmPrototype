@@ -26,6 +26,10 @@
     <meta property="og:description" content="ACM Prototype for Interface Design Class powered with Bootstrap 4.">
 
     <meta name="twitter:card" content="summary_large_image">
+      <style>
+
+          .ti-bookmark-alt {  color: red;}
+      </style>
   </head>
   <script type="text/javascript">
 
@@ -783,6 +787,11 @@
     <script src="assets/js/core.min.js"></script>
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script type="application/javascript">
+        $('.swapp').click(function() {
+            $(this).toggleClass('ti-bookmark');
+            $(this).toggleClass('ti-bookmark-alt');
+        });</script>
 
   </body>
 </html>
